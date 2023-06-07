@@ -1,0 +1,35 @@
+/* Custom styles for the awesome buttons and shades of black */
+.container {
+    max-width: 600px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+li span {
+    flex: 1;
+    color: rgba(204, 255, 255, 0.8);
+}
+
+li button {
+    margin-left: 10px;
+    background-color: rgba(147, 197, 253, 0.8);
+    color: rgba(55, 65, 81, 1);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+    background-image: linear-gradient(135deg, rgba(128, 90, 213, 1) 0%, rgba(67, 56, 202, 1) 100%);
+}
+
+li button:hover {
+    background-color: rgba(147, 197, 253, 1);
+    transform: scale(1.05);
+}
